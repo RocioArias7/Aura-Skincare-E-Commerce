@@ -9,7 +9,6 @@
 </p>
 
 ---
----
 
 ## 📸 Capturas del Proyecto
 
@@ -40,10 +39,28 @@
 
 ---
 
-## 🛠️ Instalación y Uso Local
+## 🛠️ Instalación
 
-Si querés correr este proyecto en tu computadora, seguí estos pasos:
+1. **Clonar el repositorio**
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/RocioArias7/Aura-Skincare-E-Commerce.git](https://github.com/RocioArias7/Aura-Skincare-E-Commerce.git)
+```bash
+git clone https://github.com/RocioArias7/Aura-Skincare-E-Commerce.git
+```
+
+2. **Configurar las variables de entorno** en `back/.env` y `front/.env`.
+
+3. **Iniciar el backend**
+
+```bash
+cd back
+npm install
+npm run dev
+```
+
+4. **Iniciar el frontend**
+
+```bash
+cd front
+npm install
+npm run dev
+```
